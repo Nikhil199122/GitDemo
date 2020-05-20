@@ -33,5 +33,13 @@ public class RESTAPI {
 		System.out.println("DeleteTwitter2");
 		System.out.println("DeleteTwitter3");
 	}
+	
+	@Test
+	public void DeleteTwitter13()
+	{
+		System.out.println("DeleteTwitter");
+		System.out.println("DeleteTwitter2");
+		System.out.println("DeleteTwitter3");
+	}
 
 }
