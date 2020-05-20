@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="qaclickacademy.Listeners"/>
+  </listeners>
+  <test name="ValidateNavigationBar(failed)" parallel="tests">
+    <classes>
+      <class name="qaclickacademy.ValidateTitle">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- qaclickacademy.ValidateTitle -->
+      <class name="qaclickacademy.HomePage">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- qaclickacademy.HomePage -->
+      <class name="qaclickacademy.ValidateNavigationBar">
+        <methods>
+          <include name="validateAppNavBar"/>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- qaclickacademy.ValidateNavigationBar -->
+    </classes>
+  </test> <!-- ValidateNavigationBar(failed) -->
+</suite> <!-- Failed suite [Suite] -->

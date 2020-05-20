@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel ="tests" >
+<listeners>
+<listener class-name="qaclickacademy.Listeners"/>
+</listeners>
+
+  <test name="Validating user login">
+    <classes>
+      <class name="qaclickacademy.HomePage"/>
+       </classes>
+      </test>
+      
+      <test name="ValidatingTiTLe in the page">
+      <classes>
+      <class name="qaclickacademy.ValidateTitle"/>
+       </classes>
+      </test>
+      
+      <test name="App Testing">
+      <classes>
+      <class name="qaclickacademy.AppTest"/>
+      </classes>
+      </test>
+      
+      <test name="ValidateNavigationBar">
+      <classes>
+      <class name="qaclickacademy.ValidateNavigationBar"/>
+   </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

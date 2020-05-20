@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="119.543" tests="8" errors="0" skipped="0" failures="8">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin"/>
+    <property name="java.vm.version" value="25.221-b11"/>
+    <property name="browser" value="chrome"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\nshah\MavenJava"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\nshah\MavenJava"/>
+    <property name="java.runtime.version" value="1.8.0_221-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\nshah\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\nshah\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_221\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files\nodejs\node_modules\npm\bin;C:\Users\nshah\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;&quot;C:\Users\nshah\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files\Java\jre1.8.0_221\bin&quot;;."/>
+    <property name="maven.conf" value="C:\Users\nshah\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Users\nshah\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\nshah"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="nshah"/>
+    <property name="java.class.path" value="C:\Users\nshah\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_221\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dbrowser=chrome"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_221"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_221\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\nshah\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="ValidateAppTitle" classname="qaclickacademy.ValidateTitle" time="0.611">
+    <failure message="expected [FEATURED COURES] but found [FEATURED COURSES]" type="java.lang.AssertionError">java.lang.AssertionError: expected [FEATURED COURES] but found [FEATURED COURSES]
+	at qaclickacademy.ValidateTitle.ValidateAppTitle(ValidateTitle.java:40)
+</failure>
+    <system-out><![CDATA[chrome
+chrome
+chrome
+]]></system-out>
+    <system-err><![CDATA[SStSatrtarting ChromeDting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 33143
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+arting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 28715
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+river 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 18705
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1589274094.368][WARNING]: This version of ChromeDriver has not been tested with Chrome version 81.
+[1589274094.368][WARNING]: This version of ChromeDriver has not been tested with Chrome version 81.
+[1589274094.368][WARNING]: This version of ChromeDriver has not been tested with Chrome version 81.
+[[1589274097.364][WARNING]: Timed out connecting to Chrom1589274097.364][WARNING]: Timed out connece, retrying...
+ting to Chrome, retrying...
+[1589274097.366][WARNING]: Timed out connecting to Chrome, retrying...
+May 12, 2020 2:31:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 12, 2020 2:31:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 12, 2020 2:31:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 12, 2020 2:31:50 PM qaclickacademy.ValidateTitle initialize
+INFO: Driver is initialized
+[1589274113.482][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274113.583][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274113.685][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274113.787][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274113.892][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274113.993][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274114.118][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274114.220][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274114.323][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274114.425][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274114.528][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274114.631][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274114.733][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274114.836][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274114.938][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274115.042][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274115.145][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274115.248][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274115.350][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274115.452][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274115.554][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274115.656][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274115.761][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274115.869][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274115.976][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274116.078][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274116.182][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274116.285][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274116.388][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274116.492][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274116.595][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274116.697][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274116.800][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274116.902][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274117.005][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274117.108][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274117.211][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274117.314][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274117.417][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274117.521][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274117.625][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274117.728][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274117.831][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274117.933][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274118.036][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274118.139][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274118.241][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274118.344][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274118.446][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274118.548][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274118.650][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274118.751][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274118.896][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274119.001][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274119.105][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274119.206][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274119.308][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274119.466][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274119.568][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274119.673][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274119.775][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274119.877][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274119.978][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274120.079][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274120.181][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274120.283][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274120.386][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274120.489][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274120.595][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274120.697][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274120.810][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274120.914][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274121.016][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274121.117][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274121.219][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274121.323][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274121.428][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274121.531][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274121.634][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274121.736][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274121.839][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274121.942][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274122.046][SEVERE]: Timed out receiving message from renderer: 0.100
+May 12, 2020 2:32:19 PM qaclickacademy.ValidateTitle initialize
+INFO: navigated to Home Page
+]]></system-err>
+  </testcase>
+  <testcase name="validateAppNavBar" classname="qaclickacademy.ValidateNavigationBar" time="19.024">
+    <failure message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=81.0.4044.138)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-EFS1HTK&apos;, ip: &apos;192.168.1.108&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\nshah\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53077}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 602d72956e3bea403235ca275cc05e2e" type="org.openqa.selenium.StaleElementReferenceException">org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=81.0.4044.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-EFS1HTK', ip: '192.168.1.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\nshah\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53077}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 602d72956e3bea403235ca275cc05e2e
+	at qaclickacademy.ValidateNavigationBar.validateAppNavBar(ValidateNavigationBar.java:43)
+</failure>
+    <system-err><![CDATA[[1589274151.515][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274151.617][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274151.718][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274151.819][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274151.920][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274152.022][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274152.123][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274152.225][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274152.327][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274152.429][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274152.532][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274152.634][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274152.739][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274152.840][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274152.942][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274153.044][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274153.150][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274153.252][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274153.354][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274153.455][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274153.558][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274153.660][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274153.761][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274153.864][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274153.965][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274154.066][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274154.169][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274154.271][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274154.372][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274154.474][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274154.576][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274154.678][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274154.781][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274154.882][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274154.983][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274155.086][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274155.187][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274155.289][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274155.390][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274155.492][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274155.638][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274155.739][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274155.842][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274155.946][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274156.049][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274156.152][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274156.255][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274156.357][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274156.459][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274161.436][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274161.538][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274161.640][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589274161.742][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+  <testcase name="ValidateHeader" classname="qaclickacademy.ValidateTitle" time="2.325">
+    <failure message="invalid session id&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-EFS1HTK&apos;, ip: &apos;192.168.1.108&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\nshah\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53077}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 602d72956e3bea403235ca275cc05e2e&#10;*** Element info: {Using=css selector, value=div[class*=&apos;video-banner&apos;] h3}" type="org.openqa.selenium.NoSuchSessionException">org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-EFS1HTK', ip: '192.168.1.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\nshah\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53077}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 602d72956e3bea403235ca275cc05e2e
+*** Element info: {Using=css selector, value=div[class*='video-banner'] h3}
+	at qaclickacademy.ValidateTitle.ValidateHeader(ValidateTitle.java:49)
+</failure>
+  </testcase>
+  <testcase name="ValidateHeader" classname="qaclickacademy.ValidateTitle" time="2.325">
+    <failure message="invalid session id&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-EFS1HTK&apos;, ip: &apos;192.168.1.108&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\nshah\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53077}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 602d72956e3bea403235ca275cc05e2e" type="org.openqa.selenium.NoSuchSessionException">org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-EFS1HTK', ip: '192.168.1.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\nshah\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53077}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 602d72956e3bea403235ca275cc05e2e
+</failure>
+  </testcase>
+  <testcase name="basePageNavigation" classname="qaclickacademy.HomePage" time="2.325">
+    <failure message="invalid session id&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-EFS1HTK&apos;, ip: &apos;192.168.1.108&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\nshah\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53077}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 602d72956e3bea403235ca275cc05e2e&#10;*** Element info: {Using=css selector, value=[type=&apos;password&apos;]}" type="org.openqa.selenium.NoSuchSessionException">org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-EFS1HTK', ip: '192.168.1.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\nshah\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53077}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 602d72956e3bea403235ca275cc05e2e
+*** Element info: {Using=css selector, value=[type='password']}
+	at qaclickacademy.HomePage.basePageNavigation(HomePage.java:38)
+</failure>
+  </testcase>
+  <testcase name="basePageNavigation" classname="qaclickacademy.HomePage" time="2.325">
+    <failure message="invalid session id&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-EFS1HTK&apos;, ip: &apos;192.168.1.108&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\nshah\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53077}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 602d72956e3bea403235ca275cc05e2e" type="org.openqa.selenium.NoSuchSessionException">org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-EFS1HTK', ip: '192.168.1.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\nshah\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53077}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 602d72956e3bea403235ca275cc05e2e
+</failure>
+  </testcase>
+  <testcase name="teardown" classname="qaclickacademy.ValidateTitle" time="2.357">
+    <failure message="invalid session id&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-EFS1HTK&apos;, ip: &apos;192.168.1.108&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\nshah\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53077}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 602d72956e3bea403235ca275cc05e2e" type="org.openqa.selenium.NoSuchSessionException">org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-EFS1HTK', ip: '192.168.1.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\nshah\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53077}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 602d72956e3bea403235ca275cc05e2e
+	at qaclickacademy.ValidateTitle.teardown(ValidateTitle.java:55)
+</failure>
+  </testcase>
+  <testcase name="teardown" classname="qaclickacademy.HomePage" time="2.357">
+    <failure message="invalid session id&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-EFS1HTK&apos;, ip: &apos;192.168.1.108&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\nshah\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53077}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 602d72956e3bea403235ca275cc05e2e" type="org.openqa.selenium.NoSuchSessionException">org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-EFS1HTK', ip: '192.168.1.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\nshah\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53077}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 602d72956e3bea403235ca275cc05e2e
+	at qaclickacademy.HomePage.teardown(HomePage.java:51)
+</failure>
+  </testcase>
+</testsuite>
