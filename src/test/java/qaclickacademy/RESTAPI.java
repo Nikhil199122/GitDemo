@@ -30,6 +30,8 @@ public class RESTAPI {
 	public void DeleteTwitter()
 	{
 		System.out.println("DeleteTwitter");
+		System.out.println("DeleteTwitter2");
+		System.out.println("DeleteTwitter3");
 	}
 
 }
