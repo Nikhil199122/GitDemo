@@ -41,6 +41,8 @@ public class LandingPage {
 	public WebElement getNavigationBar()
 	{
 		return driver.findElement(NavBar);
+		
+
 	}
 	public WebElement getTitle()
 	{
