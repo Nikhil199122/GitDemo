@@ -5,10 +5,7 @@ C
 D
 E
 F
-G
-H
-I
-J
+
 
 Number
 1
